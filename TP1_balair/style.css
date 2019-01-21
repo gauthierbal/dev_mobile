@@ -7,10 +7,44 @@
 #trois{
   background-color: #e55039;
 }
-img{
+#logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+#calais{
   width: 100%;
 }
-@viewport {
-   width: device-width; /* largeur du viewport */
-   zoom: 1; /* zoom initial à 1.0 (et clin d'oeil aux fans d'IE6/7) */
+#mairie{
+  background: url("img/calais_l.jpg");
+  background-repeat: no-repeat;
+  width: 1280px;
+  height: 960px;
+
+}
+label, input{
+  display: block;
+}
+
+@media screen and (max-width: 414px) {
+    #logo{
+      width: 100%;
+    }
+}
+
+@media screen and (min-resolution: 96dpi ) {
+  #mairie{
+    background-image: url("img/calais_l.jpg");
+  }
+}
+
+@media screen and (min-resolution: 192dpi ) {
+  #mairie{
+    background-image: url("img/calais_xl.jpg");
+    background-size: 50%;
+  }
+}
+@media screen and (max-width: 1024px) {
+
 }
