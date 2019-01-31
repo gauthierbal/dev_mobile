@@ -37,12 +37,16 @@ label, input{
   #mairie{
     background-image: url("img/calais_l.jpg");
   }
+
 }
 
 @media screen and (min-resolution: 192dpi ) {
   #mairie{
     background-image: url("img/calais_xl.jpg");
     background-size: 50%;
+    width: 100%;
+    height: 25vh;
+
   }
 }
 @media screen and (max-width: 1024px) {
