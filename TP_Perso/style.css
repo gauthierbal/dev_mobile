@@ -61,6 +61,8 @@ body{
 #text{
   margin-left: 1vw;
   text-align: justify;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 td{
   border-left: 1px solid black;
@@ -167,6 +169,6 @@ textarea{
     border-left: none;
   }
   #menu:active{
-    
+
   }
 }
