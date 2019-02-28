@@ -60,6 +60,7 @@ body{
 }
 #text{
   margin-left: 1vw;
+  text-align: justify;
 }
 td{
   border-left: 1px solid black;
