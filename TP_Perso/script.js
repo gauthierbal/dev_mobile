@@ -9,6 +9,5 @@ $(document).ready(function(){
       $(".nav").slideDown();
       $("#menu").css("transform", "rotate(90deg)");
     }
-
   });
 });
