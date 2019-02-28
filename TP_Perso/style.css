@@ -1,0 +1,52 @@
+html{
+  font-family: arial, verdana, sans-serif;
+}
+.nav {
+  display: inline-block;
+  float: right;
+  margin-top: 1%;
+}
+.nav a{
+  text-decoration: none;
+  color: blue;
+}
+.orga{
+  display: inline-flex;
+}
+.orga img{
+  width: 50%;
+}
+
+#image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+td{
+  border-left: 1px solid black;
+  padding-left: 2%;
+  width: 50%;
+}
+table{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.contact input{
+  width: 45%;
+  margin: 1%;
+}
+textarea{
+  width: 90%;
+  margin: 1%;
+}
+.contact input[type="submit"]{
+  display: block;
+   margin : auto;
+}
+.footer{
+  text-align: right;
+  font-style: italic;
+}
