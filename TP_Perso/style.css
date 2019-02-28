@@ -142,6 +142,9 @@ textarea{
   .nav{
     display: none;
   }
+  .nav input{
+    margin-top: 3vw;
+  }
   .orgaContent{
     width: 100%;
   }
@@ -168,7 +171,5 @@ textarea{
     width: 98%;
     border-left: none;
   }
-  #menu:active{
 
-  }
 }
