@@ -7,6 +7,9 @@ body{
   margin-bottom: 0px;
   margin-top: 0px;
 }
+.icone{
+  display: none;
+}
 .nav {
   display: inline-block;
   float: right;
@@ -34,7 +37,6 @@ body{
   width: 10vw;
 }
 #orga{
-  display: inline-flex;
   margin-top: 4vw;
   margin-bottom: 3vw;
   padding-top: 1vw;
@@ -44,7 +46,9 @@ body{
   width: 50%;
 }
 .orgaContent{
-  width: 20%;
+  display: inline-block;
+  text-align: center;
+  width: 25%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -103,6 +107,10 @@ textarea{
 
 
 @media screen and (max-width: 768px){
+  .header{
+    display: block;
+    text-align: center;
+  }
   .nav{
     display: block;
     margin-bottom: 2vw;
@@ -114,19 +122,48 @@ textarea{
     margin-left: -0.5vw;
   }
   #logo{
-    display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  #orga{
-
+  .orgaContent{
+    width: 50%;
   }
   #contact input{
     width: 90%;
     margin-bottom: 1vw;
   }
+
 }
 
 @media screen and (max-width: 425px){
+  .nav{
+    display: none;
+  }
+  .orgaContent{
+    width: 100%;
+  }
+  #logo{
+    width: 30%;
+  }
+  .icone{
+    display: block;
 
+  }
+  #menu{
+    width: 8%;
+    margin-top: 15vw;
+    margin-left: 5vw;
+    float: left;
+  }
+  #iconecontact{
+    width: 8%;
+    margin-top: 15vw;
+    margin-right: 5vw;
+    float: right;
+  }
+  td{
+    display: inline-block;
+    width: 98%;
+    border-left: none;
+  }
 }
