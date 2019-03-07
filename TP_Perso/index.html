@@ -63,13 +63,13 @@
         <div id="contact">
           <h2>Contact :</h2>
           <form class="contact" action="index.html" method="post">
-            <input type="text" placeholder="Prénom" name="prenom">
-            <input type="text" placeholder="Nom" name="nom">
-            <input type="date" placeholder="Date de Naissance" name="date">
-            <input type="text" placeholder="Ville de naissance" name="ville">
-            <input type="email" placeholder="Adresse email" name="mail">
+            <input type="text" placeholder="Prénom" name="prenom" required>
+            <input type="text" placeholder="Nom" name="nom" required>
+            <input type="date" placeholder="Date de Naissance" name="date" required>
+            <input type="text" placeholder="Ville de naissance" name="ville" required>
+            <input type="email" placeholder="Adresse email" name="mail" required>
             <input type="file" placeholder="Photo" name="photo">
-            <textarea name="message" placeholder="Message" rows="8" cols="30"></textarea>
+            <textarea name="message" placeholder="Message" rows="8" cols="30" required></textarea>
             <input type="submit" name="submit" value="Envoyer">
           </form>
         </div>
