@@ -52,10 +52,11 @@
   <table>
     <tr>
       <td>
-        <div id="map">
+        <div id="cellule1">
           <h2>Carte :</h2>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d5525721.38185662!2d1.5013420333958276!3d47.656063741256915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d50.9507076!2d1.8854818999999998!4m5!1s0x12cdd0106a852d31%3A0x40819a5fd979a70!2sNice!3m2!1d43.710172799999995!2d7.2619532!5e0!3m2!1sfr!2sfr!4v1551371668584" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <div id="map"></div>
         </div>
+
       </td>
       <td>
         <div id="contact">
@@ -79,5 +80,7 @@
   <div id="footer">
     <p>Site réalisé par Gauthier Balair</p>
   </div>
+  <script src="geolocal.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBilnkYfFrRsdorDjA8icI1LD5JP7gASmA&callback=initMap"></script>
 </body>
 </html>
