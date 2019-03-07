@@ -16,15 +16,8 @@ $(document).ready(function(){
 
   if (typeof sessionStorage!='undefined') {
     if (sessionStorage.getItem("prenom") != null) {
-      $("#donnee").append("<table>");
-      $("#donnee").append("<tr><td>Prénom</td><td>"+sessionStorage.getItem("prenom")+"</td></tr>");
-      $("#donnee").append("<tr><td>Nom</td><td>"+sessionStorage.getItem("nom")+"</td></tr>");
-      $("#donnee").append("<tr><td>Date</td><td>"+sessionStorage.getItem("date")+"</td></tr>");
-      $("#donnee").append("<tr><td>Ville</td><td>"+sessionStorage.getItem("ville")+"</td></tr>");
-      $("#donnee").append("<tr><td>Mail</td><td>"+sessionStorage.getItem("mail")+"</td></tr>");
-      $("#donnee").append("<tr><td>Message</td><td>"+sessionStorage.getItem("message")+"</td></tr>");
-      $("#donnee").append("</table>");
-      $("#donnee").append("<a href='test.html'><input type='button' name='clear' value='Clear' id='clearBtn'></a>");
+      $("#donnee").append("<table><tr><th>Clé</th><th>Valeur</th></tr><tr><td>Prénom</td><td>"+sessionStorage.getItem("prenom")+"</td></tr><tr><td>Nom</td><td>"+sessionStorage.getItem("nom")+"</td></tr><tr><td>Date</td><td>"+sessionStorage.getItem("date")+"</td></tr><tr><td>Ville</td><td>"+sessionStorage.getItem("ville")+"</td></tr><tr><td>Mail</td><td>"+sessionStorage.getItem("mail")+"</td></tr><tr><td>Message</td><td>"+sessionStorage.getItem("message")+"</td></tr></table>");
+      $("#donnee").append("<a href='index.html'><input type='button' name='clear' value='Clear' id='clearBtn'></a>");
 
       $("#clearBtn").click(function(){
         sessionStorage.clear();

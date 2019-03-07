@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" href="img/logo.jpg" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
+  <script type="text/javascript" src="localStorage.js"></script>
   <title>Mon site trop cool</title>
 </head>
 <body>
@@ -49,7 +50,7 @@
     </div>
   </div>
 
-  <table>
+  <table id="TabOrga">
     <tr>
       <td>
         <div id="cellule1">
@@ -61,7 +62,7 @@
       <td>
         <div id="contact">
           <h2>Contact :</h2>
-          <form class="contact" action="index.html" method="post">
+          <form class="contact" action="#donnee" method="post">
             <input type="text" placeholder="Prénom" name="prenom">
             <input type="text" placeholder="Nom" name="nom">
             <input type="date" placeholder="Date de Naissance" name="date">
@@ -75,6 +76,7 @@
       </td>
     </tr>
   </table>
+  <div id="donnee"></div>
 
 
   <div id="footer">

@@ -64,13 +64,13 @@ body{
   padding-left: 2vw;
   padding-right: 2vw;
 }
-td{
+#TabOrga td{
   border-left: 1px solid black;
   padding-left: 1vw;
   padding-right: 1vw;
   width: 50%;
 }
-table{
+#TabOrga{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -80,16 +80,11 @@ table{
   width: 100%;
   height: 400px;
 }
-iframe{
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
 #contact input{
   width: 45%;
   margin: 1%;
 }
-textarea{
+#contact textarea{
   width: 90%;
   margin: 1%;
 }
@@ -98,7 +93,47 @@ textarea{
 }
 #contact input[type="submit"]{
   display: block;
-   margin : auto;
+  margin : auto;
+}
+#donnee{
+  width: 50%;
+  margin-left: auto;
+}
+#donnee table{
+  border-collapse: collapse;
+  width: 100%;
+}
+#donnee  tr:nth-child(even){background-color: #f2f2f2}
+#donnee td{
+  text-align: center;
+  padding: 8px;
+}
+#donnee th {
+  background-color: #cbcedb;
+  color: #2d2d2d;
+}
+#donnee a{
+  text-decoration: none;
+}
+#donnee input[type='button']{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #2d2d2d;
+  background-color: #cbcedb;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+#donnee input[type='button']:hover{
+  background-color: #2d2d2d;
+  color: #cbcedb;
 }
 #footer{
   margin-top: 1vw;
@@ -170,10 +205,14 @@ textarea{
     margin-right: 5vw;
     float: right;
   }
-  td{
+  #TabOrga td{
     display: inline-block;
     width: 98%;
     border-left: none;
   }
-
+  #donnee{
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+    width: 100%;
+  }
 }
